@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incripción Sorteo.</title>
+    <link rel="stylesheet" href="assets/css/stylo-ingreso.css">
+</head>
+
+<body>
+    <h1>SORTEO...</h1><br>
+    <h1>LOS PRIMARIOS!!!</h1><br>
+    <h2>Participa de todos los sorteos...</h2>
+    <p>Ingresa tus datos en los sorteo que quieras participar.</p>
+    <br>
+    <div class="contenedor">
+        <div class="azul">
+            <h3>SORTEO AZUL</h3>
+            <ul>
+                <li>1er Premio: Auto 0KM</li>
+                <li>2do Premio: $500.000</li>
+                <li>3er Premio: Voucher de compra por $25.000</li>
+            </ul>
+            <form action="funciones.js" id="formulario">
+                Ingresar nombre:<br>
+                <input type="text" name="nomb" id="nomb" placeholder="nombre"><br>
+                Ingresar nro de contacto:<br>
+                <input type="text" name="apellido" id="apellido" placeholder="contacto"><br>
+                <button type="button" onclick="participando()">Participar</button>
+            </form>
+        </div>
+        <div class="rojo">
+            <h3>SORTEO ROJO</h3>
+            <ul>
+                <li>1er Premio: Una Casa </li>
+                <li>2do Premio: $250.000</li>
+                <li>3er Premio: Viaje a Córdoba</li>
+            </ul>
+            <form action="funciones.js">
+                Ingresar nombre:<br>
+                <input type="text" name="nomb" id="nomb" placeholder="nombre"><br>
+                Ingresar nro de contacto:<br>
+                <input type="text" name="apellido" id="apellido" placeholder="contacto"><br>
+                <button type="button" onclick="participando()">Participar</button>
+            </form>
+        </div>
+        <div class="amarillo">
+            <H3>SORTEO AMARILLO</H3>
+            <ul>
+                <li>1er Premio: Viaje a Disney</li>
+                <li>2do Premio: $150.000</li>
+                <li>3er Premio: Cena para dos personas</li>
+            </ul>
+            <form action="funciones.js">
+                Ingresar nombre:<br>
+                <input type="text" name="nomb" id="nomb" placeholder="nombre"><br>
+                Ingresar nro de contacto:<br>
+                <input type="text" name="apellido" id="apellido" placeholder="contacto"><br>
+                <button type="button" onclick="participando()">Participar</button>
+            </form>
+        </div>
+    </div>
+    <script src="assets/funciones.js"></script>
+</body>
+
+</html>

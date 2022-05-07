@@ -1,0 +1,27 @@
+body{
+    background-image:url(../imag/sorteo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: antiquewhite;
+    font-size: 60px;
+    font-family:unset;
+    margin-left: 350px;
+}
+form{
+    background-color: cadetblue;
+    width: 175px;
+    height: 110px;
+    padding: 15px;
+    margin-left: 530px;
+    
+    
+}
+#boton{
+    color:aliceblue;
+    background-color: black;
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 45px;
+}

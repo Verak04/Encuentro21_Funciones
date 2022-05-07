@@ -1,0 +1,83 @@
+body{
+    background-image:url(../imag/sorteo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    display: inline-block;
+    color: rgb(80, 54, 104);
+    font-size: 7em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0em;
+    margin: 0px;
+    text-shadow: 20px 20px 20px #fff,20px 20px 20px #fff;
+    position: relative;
+    
+}
+h2 {
+    font-size: 3em;
+    color: rgb(243, 243, 243);
+    text-shadow: 6px 10px 14px #000,6px 10px 14px #000;
+    position: relative;
+    left: 100px;
+}
+h3 {
+    font-size: 2em;
+    color: aqua;
+    text-shadow: 10px 15px 17px #000,10px 15px 17px #000,10px 15px 17px #000 ;
+}
+p {
+    font-size: 2em;
+    color: rgb(243, 243, 243);
+    text-shadow: 6px 10px 14px #000,6px 10px 14px #000;
+    position: relative;
+    left: 200px;
+}
+.contenedor{
+    margin: auto;
+    margin-top: 40px;
+    width: 1200px;
+    height:800px;
+}
+.azul {
+    background-image: url(../imag/auto.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+.rojo {
+    background-image: url(../imag/casa.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: -540px;
+    left: 650px;
+    z-index: 1;
+}
+.amarillo {
+    background-image: url(../imag/disney.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+    margin: 0px;
+    padding: 40px;
+    position: relative;
+    top: -700px;
+    left: 350px;
+}
+ul {
+    color:bisque;
+    font-size: 1.5em;
+    
+}
+form {
+    color: chartreuse;
+    font-size: 1.2em;
+}
+
